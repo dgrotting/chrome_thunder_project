@@ -1,33 +1,24 @@
-  <style>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pipelive</title>
+  <link rel="stylesheet" type="text/css" href="override.css">
+</head>
 
+<body>
+  <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+    <iframe frameborder="0" height="100%" width="100%"
+    src="https://www.youtube.com/embed/4HedB3suH1E?autoplay=1&controls=0&loop=1&rel=0&showinfo=0&autohide=1&wmode=transparent&hd=1">
+  </iframe>
+</div>
+<div class="centered">
+  <p>
+    <span id="date-time">
+    </span>
+  </p>
 
-  body {
-    margin: 0;
-    padding: 0;
-    text-align: center; /* !!! */
-  }
+</div>
+<script type="text/javascript" src="override.js"></script>
 
-  .centered {
-    margin: 0 auto;
-    text-align: center;
-    width: 800px;
-  }
-
-/*  #clock
-  {
-    margin-top: 40px;
-  }*/
-
-  </style>
-
-  <body>
-    <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
-      <iframe frameborder="0" height="100%" width="100%"
-      src="https://www.youtube.com/embed/4HedB3suH1E?autoplay=1&controls=0&loop=1&rel=0&showinfo=0&autohide=1&wmode=transparent&hd=1">
-    </iframe>
-  </div>
-  <div class="centered">
-    <script type="text/javascript" src="http://localtimes.info/clock.php?continent=North America&country=United States&province=California&city=San Diego&cp1_Hex=ffffff&cp2_Hex=FFFFFF&cp3_Hex=000000&fwdt=500&ham=0&hbg=1&hfg=0&sid=0&mon=0&wek=0&wkf=0&sep=0&widget_number=1000">
-    </script>
-  </div>
 </body>
+</html>

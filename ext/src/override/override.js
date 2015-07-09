@@ -11,13 +11,17 @@ function setTime() {
 // Gathering User's Name
 
 function userName() {
-    var input = document.getElementById("userInput").value;
+    viewername = document.getElementById("userInput").value;
     // console.log(input);
-    alert(input);
+    // alert(input);
 }
 
 
 $('#form').on("submit", function(event){
   event.preventDefault();
   userName();
+  $('#form').hide();
+  $('.name-text-header').hide();
+  $('.greeting').text("Aloha, " + viewername);
+  console.log(viewername);
 })

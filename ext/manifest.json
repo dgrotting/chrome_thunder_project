@@ -22,7 +22,6 @@
   "chrome_url_overrides": {
     "newtab": "src/override/override.html"
   },
-  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
   "permissions": [
     "chrome://favicon/",
     "tabs"

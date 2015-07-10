@@ -14,20 +14,6 @@
     text-align: center;
   }
 
-  #puppy-button {
-    font-size: 20px;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
-    color: white;
-    background:none;
-    border:none;
-    margin:0;
-    padding:0;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
   .centered {
     margin: 0 auto;
     text-align: center;
@@ -75,3 +61,26 @@
     padding-top: 37%;
     padding-bottom: 0px;
   }
+
+
+
+/*.form-style-4 input[type=email]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+    background: #576E86;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #A8BACE;
+}*/
